@@ -1,5 +1,8 @@
 # dependencies
-/node_modules
+/code/node_modules
+/code/yarn.lock
+/code/package-lock.json
+/code/.DS_Store
 .DS_Store
 .idea
 .vscode
@@ -38,17 +41,8 @@ typings/
 # Optional eslint cache
 .eslintcache
 
-# Optional REPL history
-.node_repl_history
-
-# Output of 'npm pack'
-*.tgz
-
 # Yarn Integrity file
 .yarn-integrity
-
-# dotenv environment variables file
-.env
 
 # next.js build output
 .next
